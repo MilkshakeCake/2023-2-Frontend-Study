@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Todo/Done List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <section id = "header">
+            <h1>Things to do</h1>
+            <form id="input-form">
+                <input id="input-text" type="text" placeholder="What to do" style="padding-left: 1rem;" />
+                <button id="input-button" onclick="addTodoList()">+</button>
+            </form>
+        </section>
+        <section id="todo">
+            <h3>To Do<span id="todo-count"></span></h3>
+            <ul id="todo-list"></ul>
+        </section>
+        <section id="done">
+            <h3>Done<span id="done-count"></span></h3>
+            <ul id="done-list"></ul>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
