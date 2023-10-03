@@ -20,7 +20,6 @@ C/C++/Java와 비슷하다.
     ```var (ObjName) = {"PropertyName1" : "PropertyVal1", 'PropertyName2' : "PropertyVal2"};```
 2. Constructor
    ```var ObjName = new Object();```
-3. 
 
 ## 3. 자바스크립트 함수
 입력값에 대해 특정 연산을 한 후 값을 반환. 위치는 무관
